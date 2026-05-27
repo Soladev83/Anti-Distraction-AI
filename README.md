@@ -51,7 +51,7 @@ A connected webcam
 
 1. Clone the Repository
 Bash
-git clone [https://github.com/YOUR_USERNAME/anti-distraction-ai.git](https://github.com/YOUR_USERNAME/anti-distraction-ai.git)
+git clone [https://github.com/Soladev83/anti-distraction-ai.git](https://github.com/Soladev83/anti-distraction-ai.git)
 cd anti-distraction-ai
 2. Set Up a Virtual Environment
 Bash
