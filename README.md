@@ -1,4 +1,4 @@
-# 🛡️Real-Time AI Anti-Distraction Assistant 🔥
+# 🛡️Real-Time AI Anti-Distraction Assistant (FocusGuard)
 
 FocusGuard is an intelligent, edge-computing productivity application designed to break the habit of digital distraction! 📱⚡ By continuously monitoring your webcam stream, the application tracks your facial positioning and physical smartphone proximity in real time. If a distraction is detected beyond a configurable grace period, the system triggers audible and visual alerts to snap you back to focus! 🧘‍♂️🔥
 
@@ -44,7 +44,7 @@ anti-distraction-ai/
 ├── requirements.txt        # 📦 Production dependencies
 └── .gitignore              # 🚫 Environment isolation configurations
 
-📦 Installation & Setup
+## 📦 Installation & Setup
 Prerequisites
 Python 3.11, 3.12, or 3.13
 
