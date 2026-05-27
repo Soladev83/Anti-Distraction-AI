@@ -1,0 +1,5 @@
+{
+    "yolo_confidence": 0.5,
+    "grace_period_seconds": 2.0,
+    "proximity_threshold_pixels": 350
+}
