@@ -11,15 +11,20 @@ def calculate_center(box):
     cy = int((box[1] + box[3]) / 2)
     return cx, cy
 
+
 def main():
     # Load configuration thresholds
     with open("config/settings.json", "r") as f:
         config = json.load(f)
 
-    # Initialize components
+    # --- UPDATED INITIALIZATION SECTION ---
+    print("Initializing AI components...")
     detector = DistractionDetector()
     audio = AudioManager()
+    
+    print("Waking up your webcam (this can take a few seconds on Windows)...")
     cap = cv2.VideoCapture(0)
+    # --------------------------------------
 
     # State tracking variables
     distraction_start_time = None
